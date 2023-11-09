@@ -85,7 +85,7 @@ public class Moves : MonoBehaviour
         Seek(targetWorld);
     }
 
-    public void Hide()
+    public Vector3 Hide()
     {
         float dist = Mathf.Infinity;
         Vector3 chosenSpot = Vector3.zero;
@@ -112,8 +112,8 @@ public class Moves : MonoBehaviour
         float distance = 250.0f;
         hideCol.Raycast(backRay, out info, distance);
 
-
-        Seek(info.point + chosenDir.normalized);
+        
+        return(info.point + chosenDir.normalized);
 
     }
 }
