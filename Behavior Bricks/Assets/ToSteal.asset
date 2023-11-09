@@ -58,34 +58,34 @@ MonoBehaviour:
     />\r\n          <ConditionEvalNode id=\"7\" />\r\n          <ConditionEvalNode
     id=\"9\" />\r\n        </nodes>\r\n      </_nodes>\r\n    </BehaviorTree>\r\n   
     <RepeatDecorator id=\"1\">\r\n      <_data>\r\n        <data breakpoint=\"0\"
-    selected=\"False\" position=\"397.75 185.5\" name=\"Repeat\" description=\"Repeats
+    selected=\"False\" position=\"595.25 230.5\" name=\"Repeat\" description=\"Repeats
     the execution of its child node\" cardinality=\"1\" hasParent=\"False\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <RepeatDecorator id=\"1\" />\r\n       
     </data>\r\n      </_data>\r\n    </RepeatDecorator>\r\n    <PrioritySelectorNode
     id=\"2\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"346.75 352.5\" name=\"Priority Selector\" description=\"\" cardinality=\"1\"
+    position=\"544.25 397.5\" name=\"Priority Selector\" description=\"\" cardinality=\"1\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <PrioritySelectorNode
     id=\"2\" />\r\n          <RepeatDecorator id=\"1\" />\r\n        </data>\r\n     
     </_data>\r\n    </PrioritySelectorNode>\r\n    <ConditionEvalNode id=\"9\">\r\n     
-    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"146 533.75\"
-    name=\"MyConditions/Is Cop Near?\" description=\"Eval\" cardinality=\"1\" hasParent=\"True\">\r\n         
-    <BehaviorTree id=\"0\" />\r\n          <ConditionEvalNode id=\"9\" />\r\n         
-    <PrioritySelectorNode id=\"2\" />\r\n        </data>\r\n      </_data>\r\n   
-    </ConditionEvalNode>\r\n    <ActionNode id=\"8\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"146 533.75\" name=\"Navigation/MoveToRandomPosition\"
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"343.5
+    578.75\" name=\"MyConditions/Is Cop Near?\" description=\"Eval\" cardinality=\"1\"
+    hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ConditionEvalNode
+    id=\"9\" />\r\n          <PrioritySelectorNode id=\"2\" />\r\n        </data>\r\n     
+    </_data>\r\n    </ConditionEvalNode>\r\n    <ActionNode id=\"8\">\r\n      <_data>\r\n       
+    <data breakpoint=\"0\" selected=\"False\" position=\"343.5 578.75\" name=\"Navigation/MoveToRandomPosition\"
     description=\"Gets a random position from a given area and moves the game object
     to that point by using a NavMeshAgent\" cardinality=\"0\" hasParent=\"False\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"8\" />\r\n        </data>\r\n     
     </_data>\r\n    </ActionNode>\r\n    <ConditionEvalNode id=\"7\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"485.75 536.5\" name=\"AlwaysTrue\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"683.25 581.5\" name=\"AlwaysTrue\"
     description=\"Eval\" cardinality=\"1\" hasParent=\"True\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <ConditionEvalNode id=\"7\" />\r\n          <PrioritySelectorNode
     id=\"2\" />\r\n        </data>\r\n      </_data>\r\n    </ConditionEvalNode>\r\n   
     <ActionNode id=\"6\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"485.75 536.5\" name=\"Navigation/MoveToGameObject\" description=\"Moves
+    position=\"683.25 581.5\" name=\"Navigation/MoveToGameObject\" description=\"Moves
     the game object towards a given target by using a NavMeshAgent\" cardinality=\"0\"
     hasParent=\"False\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ActionNode
     id=\"6\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
-  zoom: 0.8
+  zoom: 1
   subslist: []
   _guid: 50af78001d0dd7b458b0cf505fc8d437
